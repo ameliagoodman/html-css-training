@@ -22,13 +22,21 @@ CSS and HTML work together to make a well-designed website.
 ##HTML: The Basics
 First, you need to have what's called a "boiler plate." It's not that important TBH. But every HTML document has this, and so yours must too. It goes like this:
 `<!DOCTYPE html>`
+
 `<html>`
+
 	`<head>`
+
 		`<title>PUT YOUR TITLE HERE</title>`
+
 	`</head>`
+
 	`<body>`
+
 		`<h1> THIS IS WHERE YOUR CONTENT GOES</h1>`
+
 	`</body>`
+
 `</html>`
 
 The things in <> are called "tags." It lets the computer know what to expect and how to interpret it. Each tag needs to have an opening tag <> and a closing tag `</>` with the content in between.
@@ -43,15 +51,24 @@ The important tags (besides the ones listed above) are:
 
 ##HTML: Adding more content
 You can add images, links, lists and more.
+
 To add an image, you use: `<img src="img/path"/>`. This only needs the one tag, as opposed to the opening and closing tags with everything else. The "src" stands for source, and you can put the path of the image in there.
+
 To add a link, you use: `<a href="www.google.com">`Link Text`</a>`. 
+
 To create a bulleted list, you can use:
-`<ul>`UL stands for Unordered List
+`<ul>UL stands for Unordered List`
+
 	`<li>`LI stands for list item`</li>`
+
 	`<li>Second item`
+
 		`<ul> <li> sub-item </li> </ul>`
+
 	`</li>`
+
 `</ul>`
+
 To create a numbered list, you can use `<ol>` instead of `<ul>`. OL stands for ordered list.
 
 
