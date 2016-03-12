@@ -27,7 +27,7 @@
 <!-- Now we get to the content -->
 <body>
 
-    <!-- This is a menu bar using Bootstrap -->
+    <!-- This is a menu bar using Bootstrap. The syntax isn't that important since Bootstrap does all the work for us, so don't let it get you down! -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
@@ -37,7 +37,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">SITE NAME</a>
+
+                <!-- You can change this part here to reflect your site name -->
+                <a class="navbar-brand topnav" href="#">Puppies for Purpose</a>
             </div>
             
             <!-- These are your anchors (the different sections of your site) -->
@@ -47,23 +49,11 @@
                         <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#schedule">Schedule</a>
+                        <a href="#schedule">Puppies</a>
                     </li>
                     <li>
                         <a href="#FAQ">FAQ</a>
-                    </li>
-                    <li>
-                        <a href="#mentors">Mentors</a>
-                    </li>
-                    <li>
-                        <a href="#location">Location</a>
-                    </li>
-                    <li> 
-                        <a href = "https://pennwics.typeform.com/to/zTWOpK" target="_blank">
-                        <button type="button" class="btn btn-success">Register</button>
-                        </a> 
-                    </li>
-                    
+                    </li>                    
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -71,22 +61,21 @@
         <!-- /.container -->
     </nav>
 
-
-    <!-- Header -->
+    <!-- HEADING IMAGE -->
     <header class="header-image">
-        
         <div class="headline">
+            <!-- Don't forget, everything goes in a container first, then a row -->
             <div class="container">
-                <h2><i class="fa fa-check-square-o "></i> Tech it Out Philly <i class="fa fa-code"></i> </h2>
-                <h1>Saturday, April 2nd, 2016</h1>
-                <h3>University of Pennsylvania, Levine Hall</h3>
-                <h3>9am-5pm</h3>
+                <div class="row">
+                <h2>Puppies for Purpose
+                    <!-- This uses font-awesome, it puts a little image already made for you. You access by saying "fa fa-____" where the ____ you fill in which icon you want. Look through the icons here https://fortawesome.github.io/Font-Awesome/icons/ -->
+                    <i class="fa fa-paw"></i></h2>
+                <h3>Organize puppies to organize the world</h3>
+                </div>
             </div>
         </div>
     </header>
     
-
-
     <div class="sec-divider"></div>
 
     <!-- ABOUT -->
