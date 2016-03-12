@@ -23,13 +23,21 @@ CSS and HTML work together to make a well-designed website.
 First, you need to have what's called a "boiler plate." It's not that important TBH. But every HTML document has this, and so yours must too. It goes like this:
 
 `<!DOCTYPE html>`
+
 `<html>`
+
 	`<head>`
+
 		`<title>PUT YOUR TITLE HERE</title>`
+
 	`</head>`
+
 	`<body>`
+
 		`<h1> THIS IS WHERE YOUR CONTENT GOES</h1>`
+
 	`</body>`
+
 `</html>`
 
 The things in <> are called "tags." It lets the computer know what to expect and how to interpret it. Each tag needs to have an opening tag <> and a closing tag `</>` with the content in between.
