@@ -3,12 +3,10 @@ Build your own website with this HTML, CSS and Bootstrap intro tutorial.
 
 
 ##What's In Here
-* CSS folder (where your CSS goes)
-* font-awesome folder (for cute and easy icons)
-* img folder (where you keep any images)
-* js folder (for javascript & jquery)
-* favicon.ico (that little picture on the tab)
+* HTML folder (steps for your HTML)
+* CSS folder (steps for your CSS)
 * index.html (where your HTML goes)
+* stylesheet.css (where your CSS goes)
 * README.md (that's what this is)
 
 
@@ -69,3 +67,5 @@ CSS works by selecting specific tags written in HTML and adding design attribute
 	}
 
 Like magic!
+
+You can use # to select IDs and . to select classes, using the same format as the above brackets with h1.
