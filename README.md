@@ -2,7 +2,7 @@
 Build your own website with this HTML, CSS and Bootstrap intro tutorial.
 
 
-##What's In Here
+## What's In Here
 * HTML folder (steps for your HTML)
 * CSS folder (steps for your CSS)
 * index.html (where your HTML goes)
@@ -10,14 +10,14 @@ Build your own website with this HTML, CSS and Bootstrap intro tutorial.
 * README.md (that's what this is)
 
 
-##What's what
+## What's what
 CSS stands for Cascading Style Sheets. Basically, it's what takes the text, images, links, etc. you put in your HTML code and makes it look hot.
 
 HTML stands for Hyper Text Markup Language, and is essentially the content of your website.
 
 CSS and HTML work together to make a well-designed website.
 
-##HTML: The Basics
+## HTML: The Basics
 First, you need to have what's called a "boiler plate." It's not that important TBH. But every HTML document has this, and so yours must too. It goes like this:
 
 	<!DOCTYPE html>
@@ -40,7 +40,7 @@ The important tags (besides the ones listed above) are:
 *Bold, marked by `<b>`.
 *Underline, marked by `<u>`.
 
-##HTML: Adding more content
+## HTML: Adding more content
 You can add images, links, lists and more.
 
 To add an image, you use: `<img src="img/path"/>`. This only needs the one tag, as opposed to the opening and closing tags with everything else. The "src" stands for source, and you can put the path of the image in there.
@@ -59,7 +59,7 @@ To create a bulleted list, you can use:
 To create a numbered list, you can use `<ol>` instead of `<ul>`. OL stands for ordered list.
 
 
-##CSS: The Basics
+## CSS: The Basics
 CSS works by selecting specific tags written in HTML and adding design attributes to them. So you can set your every h1 header to the color white by saying:
 
 	h1 {
