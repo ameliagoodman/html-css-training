@@ -1,11 +1,20 @@
-/* id selector*/
-#unique-section {
-  	color: red;
-  
+/* id selector (used for specific tags)*/
+#course_work {
+	background-color: #8E443D;
 }
 
-/* class selector*/
+#work_experience {
+	background-color: #511730;
+}
 
-.regular-section {
-	color: green;
+/* class selector (used for tags that will be re-used)*/
+.info {
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+/* targeting specific things without tagging them all*/
+/* ex: all links in work_experience div */
+#work_experience a {
+    color: #E0D68A;
 }

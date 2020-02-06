@@ -1,0 +1,12 @@
+/* overwrite bootstrap css (find class name in html or inspect element)  */
+.navbar {
+    background-color: #8E443D;
+}
+
+.navbar-brand {
+    color: #E0D68A;
+}
+
+.nav-link {
+    color: #fff;
+}

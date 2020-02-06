@@ -1,7 +1,13 @@
-/* make all h1s the same color
-*/
-h1 {
-  	color: red;
-  	size: 18px;
-  	font-family: ‘Georgia’, serif;
+/* add universal font-color */
+body {
+	color: red
 }
+
+/* definition for all h1s*/
+h1 {
+    color: #320A28;
+    size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* order matters! try moving body below h1 and see what happens to the h1 colors  */
